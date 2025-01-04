@@ -82,7 +82,7 @@ def main():
     center = calculate_vector_center(model)
 
     # Exemple de produit à vérifier
-    product_to_check = "Smartwatch"
+    product_to_check = "Wireless Noise-Canceling Headphones"
 
     # Récupérer les produits similaires ou suggérer des produits génériques
     get_similar_products(model, product_to_check, center)
